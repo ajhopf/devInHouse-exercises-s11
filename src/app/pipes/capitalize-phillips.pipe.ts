@@ -12,7 +12,7 @@ export class CapitalizePhillipsPipe implements PipeTransform {
 
     textToTransform = textToTransform.map(word => {
       if (word) {
-        return word[0].toUpperCase() + word.substring(1)
+        return word[0].toUpperCase() + word.slice(1)
       }
       return ''
     })
