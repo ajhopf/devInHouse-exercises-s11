@@ -7,13 +7,15 @@ import { CapitalizePhillipsPipe } from './pipes/capitalize-phillips.pipe';
 import { CapitalizeComponent } from './components/capitalize/capitalize.component';
 import { FormsModule } from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FotosComponent } from './components/fotos/fotos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CapitalizePhillipsPipe,
     CapitalizeComponent,
-    NavbarComponent
+    NavbarComponent,
+    FotosComponent
   ],
   imports: [
     BrowserModule,
