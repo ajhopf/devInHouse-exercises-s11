@@ -8,6 +8,7 @@ import { CapitalizeComponent } from './components/capitalize/capitalize.componen
 import { FormsModule } from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FotosComponent } from './components/fotos/fotos.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FotosComponent } from './components/fotos/fotos.component';
     CapitalizePhillipsPipe,
     CapitalizeComponent,
     NavbarComponent,
-    FotosComponent
+    FotosComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
