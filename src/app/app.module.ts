@@ -10,6 +10,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { CardComponent } from './components/card/card.component';
+import { InputValidationComponent } from './components/input-validation/input-validation.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardComponent } from './components/card/card.component';
     NavbarComponent,
     FotosComponent,
     ModalComponent,
-    CardComponent
+    CardComponent,
+    InputValidationComponent
   ],
   imports: [
     BrowserModule,
