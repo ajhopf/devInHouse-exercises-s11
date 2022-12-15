@@ -11,6 +11,7 @@ import { FotosComponent } from './components/fotos/fotos.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { CardComponent } from './components/card/card.component';
 import { InputValidationComponent } from './components/input-validation/input-validation.component';
+import { TodoListComponent } from './components/todo-list/todo-list.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InputValidationComponent } from './components/input-validation/input-va
     FotosComponent,
     ModalComponent,
     CardComponent,
-    InputValidationComponent
+    InputValidationComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
