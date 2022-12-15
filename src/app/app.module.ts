@@ -9,6 +9,7 @@ import { FormsModule } from "@angular/forms";
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ModalComponent } from './components/modal/modal.component';
     CapitalizeComponent,
     NavbarComponent,
     FotosComponent,
-    ModalComponent
+    ModalComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
